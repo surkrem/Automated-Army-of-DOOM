@@ -1,1 +1,3 @@
-console.log("Success");
+module.exports.loop = function() {
+  console.log("Success");
+}
