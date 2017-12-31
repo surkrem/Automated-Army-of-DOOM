@@ -1,3 +1,5 @@
+roomBasic = require('room.basic')
+
 module.exports.loop = function() {
-  console.log("Success");
+    roomBasic.run(Game.rooms.sim);
 }
